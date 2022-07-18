@@ -1,10 +1,12 @@
 import React from 'react';
+import "./App.css"
+import views from  "./images/"
 
 const images = [
-    "./images/IMG-20210323-WA0000.jpg",
-    "./images/IMG-20210323-WA0001.jpg",
-    "./images/IMG-20211217-WA0000.jpg",
-    "./images/IMG-20211217-WA0012.jpg"
+    `${views}/IMG-20210323-WA0000.jpg`,
+    `${views}/IMG-20210323-WA0001.jpg`,
+    `${views}/IMG-20211217-WA0000.jpg`,
+    `${views}/IMG-20211217-WA0012.jpg`
 ]
 
 function App() {
